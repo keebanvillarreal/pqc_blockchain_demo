@@ -28,7 +28,7 @@ This provides two key advantages:
 │                                                                 │
 │   Hash of Father Block ──┐                                      │
 │                          ├──► SHA256 ──► Seed                   │
-│   Nonce ────────────────┘                  │                    │
+│   Nonce ─────────────────┘                  │                   │
 │                                            ▼                    │
 │                                      PRNG(Seed, i)              │
 │                                            │                    │

@@ -440,26 +440,3 @@ if __name__ == "__main__":
     print("\n" + "=" * 70)
     print("SIMULATION COMPLETE")
     print("=" * 70)
-    print("""
-Key Consensus Properties Demonstrated:
-
-1. POST-QUANTUM SECURITY
-   - Uses NP-hard multivariate quadratic equations
-   - No known quantum speedup (unlike hash-based PoW)
-
-2. MEMORY-HARD MINING  
-   - Gröbner basis requires memory proportional to system size
-   - ASIC resistance through memory requirements
-
-3. FAST VERIFICATION
-   - Mining: Solve equation system (expensive)
-   - Verify: Substitute and check (cheap)
-
-4. DIFFICULTY ADJUSTMENT
-   - DAA maintains stable block times
-   - Target = PoWLimit / Difficulty
-
-5. TAMPER DETECTION
-   - Modified solutions fail equation verification
-   - Chain integrity preserved
-""")
